@@ -1,0 +1,132 @@
+@charset "UTF-8";
+
+
+body {
+    padding: 150px;
+    background-color:bisque;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+main {
+    background-color: white;
+    margin: auto;
+    margin-top: 0px;
+    padding: 20px;
+    border-radius: 20px 20px;
+    font-size: 20px;
+}
+
+
+
+header {
+    background-color: green;
+    color: white;
+    margin-right:-150px;
+    margin-left: -150px;
+    margin-top: -200px;
+    padding: 50px;
+    padding-bottom: 10px;
+    padding-top: -15px;
+    
+
+}
+
+#primeiro {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 40px;
+    font-size: 50px;
+    margin-bottom: -30px;
+    font-weight: bolder;
+    
+}
+
+#segundo {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: -20px;
+    font-weight: 100;
+    font-size: 20px;
+   
+}
+
+div > a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding-right: 10px;
+    font-weight: bolder;
+    margin-left: -20px;
+    margin-right: 25px;
+    padding-bottom: 10px;
+    
+
+
+}
+
+#historias {
+    margin-top: -5px;
+}
+
+.seg {
+    background-color: rgb(184, 247, 184);
+    font-size: 23px;
+    color: rgb(9, 145, 9);
+}
+
+#imagem {
+    width: 100%;
+}
+
+
+#mulher {
+    text-align: center;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#video {
+    text-align: center;
+    background-color: green;
+    
+}
+
+#textoverde {
+    background-color: rgba(146, 209, 143, 0.959);
+    border-radius: 20px 20px 20px 20px;
+    margin: 20px;
+    padding: 20px;
+    border: 20px;
+}
+
+ #cabe {
+    background-color: green;
+    border-radius: 20px 20px 0px 0px;
+    color: white;
+    margin-top: -20px;
+    padding: 10px;
+    margin-left: -20px;
+    margin-right: -20px;
+  
+   
+}
+
+#curiosidade {
+    display:inline-block;
+}
+
+footer {
+    background-color: rgb(1, 68, 1);
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+footer > p {
+    margin-top: 5px;
+    border-radius: 20px 20px;
+}

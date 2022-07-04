@@ -1,0 +1,150 @@
+@charset "UTF-8";
+
+
+* {
+    margin: 0px;
+}
+
+body {
+    background-color: bisque;
+}
+
+header {
+    background-color: green;
+    padding: 50px;
+
+}
+
+header h1 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 50px;
+}
+
+header p {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: large;
+}
+
+nav {
+    background-color: green;
+    font-weight: bolder;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0px 5px 10px #00000086;
+    
+}
+
+nav a:hover {
+    background-color: #a3dba3;
+    color: #064706;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+strong {
+    color: green;
+}
+
+main {
+    background-color: white;
+    margin-left: 150px;
+    margin-right: 150px;
+    border-radius: 0px 0px 20px 20px;
+    box-shadow: 0px 10px 10px #00000086;
+
+}
+
+
+#foto {
+    width: 40%;
+    display: block;
+    margin: auto;
+}
+
+main h1 {
+    padding-top: 20px;
+    padding-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: green;
+}
+
+main p {
+    text-indent: 25px;
+    margin: 20px;
+    text-align: justify;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 2em;
+    
+    
+}
+
+main img {
+    width: 95%;
+    padding: 0px;
+    margin: 0px;
+    display: block;
+    margin: auto;
+}
+
+main h2 {
+    background-color: green;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 21px;
+    margin-left: 20px;
+}
+
+#video {
+    background-color: green;
+    padding:20px;
+    display: inline-block;
+    width: 96.2%;
+    text-align: center;
+    
+  
+}
+
+aside {
+    background-color: #8ce78c;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+aside h3 {
+    background-color: green;
+    color: white;
+    padding: 15px;
+    margin:-10px;
+    border-radius: 10px 10px 0px 0px;
+
+}
+
+ul {
+    columns: 2;
+}
+
+#utpara {
+    padding: 20px;
+    margin-top: -20px;
+}
+
+footer {
+    background-color: green;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}

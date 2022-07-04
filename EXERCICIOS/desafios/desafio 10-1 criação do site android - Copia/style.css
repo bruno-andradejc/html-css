@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+body {
+    background-color: #9fe69fbe;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+header {
+    background-color: green;
+    padding-bottom: 20px;
+    padding-top: 30px;
+    margin: -10PX;
+    
+     
+}
+
+#primo {
+    text-align: center;
+    color: white;
+}
+
+#paragrafo1 {
+    color: white;
+    text-align: center;
+}
+
+nav a {
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    margin-left: -10px;
+    
+
+}
+
+
+main {
+padding: 30px;
+background-color: white;
+margin-left: 150px;
+margin-right: 150px;
+margin-top: 10px;
+padding-top: 20px;
+text-align: justify;
+
+
+}
+
+h2 {
+background-color: #9fe69fbe;
+color: #4575499d;
+}
+
+p {
+    text-indent: 20px;
+}

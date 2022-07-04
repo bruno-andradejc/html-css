@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+body {
+    background-image:linear-gradient(to right, #ac1717c4 70%, #da955d);
+    
+    }
+
+h1 {
+    text-align: center;
+    font-size: 3em;
+    color:gold
+    
+   }
+
+   div {
+    text-align: center;
+   }
+
+
+
+

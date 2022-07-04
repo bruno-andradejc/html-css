@@ -1,0 +1,36 @@
+@charset "UTF-8";
+/*
+em HTML é id = em css # (id uma por documento)
+em HTML é class = em css .(usar avontade)
+<span class="nome"></span>(marcação de texto em html)
+*/
+
+body {
+    background-color: #dbffb7;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #236423;
+}
+
+h1#principal {
+    text-align: center;
+    background-color: #335a0b;
+    color:#ffffff;
+}
+
+h2 {
+    color: #053d05;
+}
+
+.intermediario {
+    color: #d8d84d;
+}
+
+.avancado {
+    color: #b33f3f;
+    
+}
+
+.fio {
+    background-color:rgb(245, 148, 148);
+    color: #b33f3f;
+}
