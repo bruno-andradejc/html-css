@@ -11,7 +11,7 @@ body {
 }
 
 header {
-    background-color:green;
+    background-image:linear-gradient(to bottom,#60d360, #008000);
     padding: 60px;
     
 }
