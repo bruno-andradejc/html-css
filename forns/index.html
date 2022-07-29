@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+            width: 100%;
+        }
+
+    header {
+        width:99vw;
+        background-color: blueviolet;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    header h1 {
+        text-align: center;
+        padding-top: 40px;
+        color: white;
+        font-size: 45px;
+    }
+
+    header h2 {
+        /*padding:4px 0px 40px 0px;*/
+        text-align: center;
+        color: #d5bbec;
+        padding-bottom: 40px;
+    }
+/*
+    #caixa1 {
+        padding: 30px 0px 0px 30px;
+    }
+
+    #caixa2 {
+        padding: 20px 0px 0px 30px;
+    }
+*/
+    body {
+        background-color: #d5bbec;
+    }
+
+
+    #caixa3 {
+        width: 25%;
+        margin: 20px auto;
+    }
+
+    #form2 {
+        margin: 0px auto;
+    }
+
+    #form2 label {
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    #form2 input {
+        margin-bottom: 15px;
+        padding: 8px 150px 8px 8px;
+        border-radius: 4px;
+        border: none;
+    }
+
+    #form2 #mensagem {
+        padding-bottom: 100px;
+    }
+
+    button {
+        font-size: 20px;
+        padding: 10px 50px;
+        width: 15%;
+        margin-left: 510px;
+        border-radius: 10px;
+        border: none;
+    }
+
+    button:hover {
+        background-color: blueviolet;
+        color: white;
+        transition: 0.5s;
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>FORMULARIO</h1>
+        <h2>Para aprendizado</h2>   
+    </header>
+    <!-- <div id="caixa1">
+    <form id="form1">
+        <fieldset>
+            <legend>Dados pessoais</legend>
+            <label for="">Nome</label>
+            <input type="text" name="nome" placeholder="Digite seu nome">
+            <label for="">Telefone</label>
+            <input type="tel" name="tel" placeholder="Digite seu Telefone">
+        </fieldset>
+    </div>
+    <div id="caixa2">
+        <fieldset>
+            <legend>Dados comercias</legend>
+            <label for="email">E-mail</label>
+            <input type="email" name="email" placeholder="Digite seu E-mail">
+            <label for="password">Senha</label>
+            <input type="password" name="password" placeholder="Digite uma senha">
+        </fieldset>
+    </div>
+    </form> -->
+    <div id="caixa3">
+    <form id="form2">
+        <label for="nome">Nome</label>
+        <input type="text" name="nome" placeholder="Digite seu nome">
+        <label for="">Telefone</label>
+        <input type="tel" name="tel" placeholder="Digite seu Telefone">
+        <label for="email">E-mail</label>
+        <input type="email" name="email" placeholder="Digite seu E-mail">
+        <label for="password">Senha</label>
+        <input type="password" name="password" placeholder="Digite uma senha">
+        <label for="mensagem">Mensagem</label>
+        <input type="text" id="mensagem" name="mensagem" placeholder="Escreva sua mensagem">
+    </form>
+    </div>
+    <button>Enviar</button>
+</body>
+</html>
